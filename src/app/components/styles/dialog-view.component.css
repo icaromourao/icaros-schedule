@@ -1,0 +1,15 @@
+.dialog-view-container {
+  width: 500px;
+}
+
+.mat-mdc-dialog-actions {
+  padding: 0 24px 20px;
+}
+
+.dialog-view-content {
+  padding: 20px 24px 8px;
+}
+
+.dialog-view-content span {
+  display: block;
+}

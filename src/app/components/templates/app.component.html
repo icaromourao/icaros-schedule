@@ -1,0 +1,22 @@
+<div>
+  <!-- Toolbar -->
+  <div class="toolbar" role="banner">
+    <div class="toolbar-logo">
+      <span>Ícaro's Schedule</span>
+    </div>
+    <div class="nav-bar">
+      <a
+        class="nav-item"
+        style="margin-right: 16px;"
+        [routerLink]="['home']">
+        Home
+      </a>
+      <a class="nav-item" [routerLink]="['docs']">
+        Docs
+      </a>
+    </div>
+    <div></div>
+  </div>
+
+  <router-outlet></router-outlet>
+</div>

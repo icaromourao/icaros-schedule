@@ -1,0 +1,15 @@
+.error-message {
+  color: #F44336;
+  padding: 0 24px 20px;
+  text-align: center;
+}
+
+.mat-mdc-dialog-actions {
+  padding: 0 24px 20px;
+}
+
+.dialog-form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}

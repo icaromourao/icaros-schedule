@@ -1,0 +1,13 @@
+<div class="dialog-view-container">
+  <div class="dialog-view-content">
+    <span style="font-size: 18px; margin-bottom: 16px;">{{ data.title }}</span>
+    <span style="margin-bottom: 8px;">{{ data.tags }}</span>
+    <span style="margin-bottom: 8px;">{{ data.date.toDateString() }}</span>
+    <span style="margin-bottom: 8px;">Start hour: {{ zeroBefore(data.hour) }}:{{ zeroBefore(data.minute) }}</span>
+    <span style="margin-bottom: 8px;">Description: {{ data.description }}</span>
+    <span>{{ data.appointmentTime }} minutes</span>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onOkClick()" cdkFocusInitial>Ok</button>
+  </div>
+</div>
